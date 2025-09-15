@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pndrobotros2/msg/JointStateCmd.msg
+// generated code does not contain a copyright notice
+
+
+module pndrobotros2 {
+  module msg {
+    struct JointStateCmd {
+      sequence<double> q_d;
+
+      sequence<double> q_dot_d;
+
+      sequence<double> tau_d;
+
+      sequence<int32> hands_d;
+    };
+  };
+};

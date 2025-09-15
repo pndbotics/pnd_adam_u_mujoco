@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>cpp_demo</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="pnd-humanoid@todo.todo">pnd-humanoid</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <exec_depend>rclpy</exec_depend>
+  <depend>libyaml-cpp-dev</depend>  <!-- 新增这一行 -->
+  <exec_depend>yaml-cpp</exec_depend>  <!-- 新增这一行 -->
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+    <resource_file>resource/cpp_demo</resource_file>
+  </export>
+</package>

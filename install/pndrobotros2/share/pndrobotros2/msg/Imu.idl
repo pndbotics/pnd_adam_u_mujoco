@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pndrobotros2/msg/Imu.msg
+// generated code does not contain a copyright notice
+
+
+module pndrobotros2 {
+  module msg {
+    typedef double double__3[3];
+    struct Imu {
+      double yaw;
+
+      double pitch;
+
+      double roll;
+
+      double__3 angular_velocity;
+
+      double__3 linear_acceleration;
+    };
+  };
+};
